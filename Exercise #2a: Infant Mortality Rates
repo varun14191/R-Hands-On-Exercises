@@ -1,0 +1,7 @@
+setwd("/Users/varunverma/Documents/MICA/Term 4/AMMA")
+
+#Reading .csv file and removing the last variable
+
+infant_mortality_rates <- read_csv("G:/THE MICA EPISODE/2nd YEAR/AMMA/Hands on Exercises/Infant mortality rates.csv")
+infant_mortality_rates$`Flag Codes`<- NULL
+View(infant_mortality_rates)
